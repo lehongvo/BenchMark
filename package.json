@@ -1,0 +1,19 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node rpc-benchmark.js",
+    "quick": "node quick-test.js",
+    "benchmark": "node rpc-benchmark.js",
+    "table": "node table-compare.js",
+    "summary": "node summary.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ethers": "^6.15.0"
+  }
+}
